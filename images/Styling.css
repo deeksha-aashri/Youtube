@@ -1,27 +1,33 @@
 .navbar{
-    display:flex;
-    justify-content:space-around;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+    padding: 10px;
+}
+
+.sidebar{
     float: left;
-    width: 100%;
-    text-align: center;
-    padding: 12px 12px;
-    transition: all 0.3s ease;
-    color: rgb(32, 8, 8);
-    height: 8vh;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    width:25vw ;
+    height: auto;
+    
 }
-#seconddiv{
-    align-items: flex-end;
-    width: 80vw;
-}
-ul>li{
-    list-style: none;
-}
-div>.main{
+.songs>div{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-left: 200px; 
     padding: 10px 10px;   
     margin-top: 50px;
+    float: right;
+}
+li{
+    list-style: none;
+}
+li>a {
+    padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+    display:flex;
 }
