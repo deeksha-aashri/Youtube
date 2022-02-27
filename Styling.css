@@ -1,30 +1,39 @@
-.navbar{
+ .navbar{
     display:flex;
-    justify-content:space-around;
-    float: left;
-  width: 100%;
-  text-align: center;
+    justify-content:space-evenly;
+    float: left; 
+   width: 100%;
   padding: 12px 12px;
   transition: all 0.3s ease;
   color: rgb(32, 8, 8);
   height: 8vh;
   margin-bottom: 20px;
-}
+} 
 
 .sidebar{
   float: left;
-  margin-top: 30px;
+  margin-top: 10px;
   width:25vw ;
-  height: auto;
+  
+  margin-right: 50px;
+  
   
 }
-.songs>div{
+div> .contentarea{
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-right: 10px;
+  float:right;
+
+}
+.songs{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-left: 200px; 
-  padding: 10px 10px;   
-  margin-top: 50px;
+ /* padding: 10px 10px;    */
+   margin-top: 1px; 
+  margin-bottom: 0px;
   float: right;
 }
 li{
@@ -35,4 +44,17 @@ li>a {
 text-decoration: none;
 font-size: 20px;
   display:flex;
+}
+#secondfromtop>ul{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly ;
+  margin-left:50px; 
+  padding: 10px 10px 10px 10px;   
+  margin-top: 10px;
+  margin-bottom: 0px;
+  
+}
+a:link, a:visited{
+  color:default ;
 }
