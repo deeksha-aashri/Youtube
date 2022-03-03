@@ -8,11 +8,11 @@
     
 }
 #rightside>p{
-    border-radius: 25px;
+    border-radius: 20px;
     background: gainsboro;
-    padding: 20px;
-    width: 2vw;
-    height: 2vh;
+    padding: 5px;
+    width: 4vw;
+    height: 4vh;
 
 }
 .songs{
